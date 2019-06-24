@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # OBSOLETE - ASPxGridView - How to display truncated text in a resizable column (using CSS)
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4898)**
+<!-- run online end -->
 
 
 <p><strong>UPDATED:<br><br></strong>Starting with version v2015 vol 2 (v15.2), this functionality is available out of the box. Simply set the <strong>ASPxGridView.SettingsBehavior.AllowEllipsisInText</strong> / <strong>GridViewDataColumn.Settings.AllowEllipsisInText</strong> property to True to activate it. Please refer to the <a href="https://community.devexpress.com/blogs/aspnet/archive/2015/11/10/asp-net-grid-view-data-range-filter-adaptivity-and-more-coming-soon-in-v15-2.aspx">ASP.NET Grid View - Data Range Filter, Adaptivity and More (Coming soon in v15.2)</a> blog post and the <a href="http://demos.devexpress.com/ASPxGridViewDemos/Columns/TextEllipsis.aspx">Text Ellipsis</a> demo for more information.<br>If you have version v15.2+ available, consider using the built-in functionality instead of the approach detailed below.<br><br>This example demonstrates how to display truncated text in a resizable ASPxGridView column and show a full value as a tool tip.<br><br>1) Apply the following CSS class to column cells:</p>
